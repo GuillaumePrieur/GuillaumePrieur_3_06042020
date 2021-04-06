@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
 
 /* 
 Logo et titres: Shrikhand
@@ -8,6 +8,6 @@ Primaire Secondaire Tertiaire
 #9356DC  #FF79DA    #99E2D0
  */
 
-body{
-    font
+body {
+    font-family: "Roboto" , "sans-serif";
 }
