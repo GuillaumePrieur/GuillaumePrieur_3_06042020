@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap");
+
+/* 
+Logo et titres: Shrikhand
+Texte: Roboto
+Couleur:
+Primaire Secondaire Tertiaire
+#9356DC  #FF79DA    #99E2D0
+ */
+
+body {
+  font-family: "Roboto", "sans-serif";
+  margin: 0rem;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header {
+  padding: 1rem;
+  position: relative;
+  z-index: 10;
+
+  &__logo {
+    font-family: Shrikhand, "cursive";
+    margin: 0;
+    text-align: center;
+  }
+}
+.search__form {
+  background-color: #fafafa;
+  padding: 0rem 2rem 2rem 2rem;
+  text-align: center;
+  p{
+    margin: 0 0 1.5rem 0;
+    font-size: 16px;
+}
+h1{
+    padding: 2rem 0 1rem 0;
+    margin: 0;
+    font-size: 26px;
+}
+
+  &Bar {
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 1rem;
+    margin: 0 -2rem;
+    background-color: #f3f3f3;
+    font-size: 1.3rem;
+    position: relative;
+    .icon {
+      margin-right: 0.5rem;
+      margin-left: 2rem;
+    }
+    .input {
+      background-color: #f3f3f3;
+      border: none;
+      margin-right: 0rem;
+      font-family: "Roboto", "sans-serif";
+      font-size: 22px;
+      font-weight: 900;
+      max-width: 200px;
+    }
+    
+  }
+}
+.submit{
+    border: 0;
+    padding: .75rem 1.5rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border-radius: 100px;
+    color: #fff;
+    background-color: #686868;
+    background-image: linear-gradient(
+0deg
+,rgba(147,86,220,.9),rgba(255,121,218,.9));
+    cursor: pointer;
+    transition-duration: .25s;
+}
+
+
+.flexCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flexCard img {
+  width: 100%;
+  max-height: 180px;
+  border-radius: 1rem 1rem 0 0;
+  object-fit: cover;
+  object-position: bottom;
+}
+/* sauf seconde img pour object position bottom */
+
+figure {
+  margin: 0;
+  height: 100%;
+}
+.card {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 0 16px #c4baba;
+  transition-duration: 0.1s;
+}
+.new {
+  position: relative;
+  bottom: 70%;
+  left: 73%;
+  z-index: 2;
+  width: 5rem;
+  background-color: #9df2d4;
+}
+.new p {
+  color: green;
+  text-align: center;
+}
+// h2 {
+//   margin: -3rem 2rem 0.25rem 1rem;
+// }
+figcaption p {
+  margin: 0rem 2rem 0.25rem 1rem;
+}
