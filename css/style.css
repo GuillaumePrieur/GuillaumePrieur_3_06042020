@@ -26,6 +26,7 @@ a {
   margin: 0;
   text-align: center;
   font-size: 32px;
+  font-weight: 400;
 }
 
 .search__form {
@@ -75,12 +76,58 @@ a {
   border-radius: 100px;
   color: #fff;
   background-color: #686868;
-  background-image: linear-gradient(356deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
+  background-image: linear-gradient(355deg, rgba(147, 86, 220, 0.9), rgba(255, 121, 218, 0.9));
   cursor: pointer;
   transition-duration: 0.25s;
 }
 .submit__span {
   font-size: 16px;
+}
+
+.operating {
+  padding: 1rem;
+}
+
+.tuto {
+  padding-left: 0;
+  list-style-type: none;
+  counter-reset: compteListe;
+}
+.tuto__step {
+  padding: 1.5rem;
+  margin: 1rem 1rem 1rem 0.75rem;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.15);
+  border-radius: 1.25rem;
+  background-color: #f6f6f6;
+  display: flex;
+  position: relative;
+}
+.tuto__step::before {
+  counter-increment: compteListe 1;
+  content: counter(compteListe) " ";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #9c02e9;
+  color: #fff;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 100%;
+  position: absolute;
+  left: -0.75rem;
+}
+.tuto__step .icon {
+  width: 2rem;
+  color: #686868;
+  text-align: center;
+  align-self: center;
+  margin-right: 1rem;
+}
+.tuto__step .steptext {
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 600;
 }
 
 .flexCard {
