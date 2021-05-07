@@ -168,11 +168,46 @@ figure {
       border-radius: 10px;
       position: relative;
       top: -50%;
-      right: -75%;
+      right: -70%;
     }
 }
 
 
 figcaption p {
   margin: 0rem 2rem 0.25rem 1rem;
+}
+
+
+
+.footer{
+  background-color: #353535;
+  
+  &__bloc{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  &__logo{
+    color: #fff;
+    font-family: Shrikhand,"cursive";
+    font-size: 1.2rem;
+    margin: 0 0 1rem 0;
+  }
+  &__list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  &__listElt{
+    margin: 0.5rem 0;
+  }
+  &__link{
+    color: #fff;
+    text-decoration: none;
+  }
+  &__icon{
+    width: 1.5rem;
+    text-align: center;
+  }
 }
